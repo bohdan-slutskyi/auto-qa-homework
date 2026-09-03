@@ -1,0 +1,11 @@
+[project]
+name = "auto-qa-homework-01"
+version = "0.1.0"
+description = "Домашнее задание 1 по Auto QA: unit-тесты SimpleMath"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

@@ -11,3 +11,18 @@
 ```bash
 uv run --locked pytest -q
 ```
+
+## Урок 03: Введение в Selenium
+
+В папке `03__Auto QA 3 - Введение в Selenium/homework_02/` находится
+Selenium-скрипт для Google Chrome. Он открывает сайт IT Career Hub, переходит к
+разделу «Способы оплаты» и сохраняет скриншот.
+
+Запуск из папки задания:
+
+```bash
+uv run python test_payment_methods.py
+```
+
+Итоговый скриншот сохраняется в
+`artifacts/payment_methods_section.png`.

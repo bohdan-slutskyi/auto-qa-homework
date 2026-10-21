@@ -48,3 +48,15 @@ uv run --locked pytest -q
 ```bash
 uv run --locked pytest -q
 ```
+
+## Урок 09: Расширенные практики Selenium
+
+В папке `09__Auto QA 9 - Расширенные практики Selenium/homework_05/`
+находятся pytest-тесты проверки текста в iframe и перетаскивания фотографии
+в область Trash.
+
+Проверка из папки задания:
+
+```bash
+uv run --locked pytest -q
+```

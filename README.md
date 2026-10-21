@@ -60,3 +60,16 @@ uv run --locked pytest -q
 ```bash
 uv run --locked pytest -q
 ```
+
+## Урок 11: Page Object Model
+
+В папке `11__Auto QA 11 - Page Object Model/homework_06/` находится
+pytest-тест оформления заказа в SauceDemo, организованный через Page Object-
+классы для авторизации, каталога, корзины и checkout. Тест добавляет три
+товара и проверяет итоговую сумму `$58.29`.
+
+Проверка из папки задания:
+
+```bash
+uv run --locked pytest -q
+```

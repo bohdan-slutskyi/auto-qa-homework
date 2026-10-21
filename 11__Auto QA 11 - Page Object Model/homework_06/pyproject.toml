@@ -1,0 +1,16 @@
+[project]
+name = "auto-qa-homework-06"
+version = "0.1.0"
+description = "Selenium homework: Page Object Model checkout total"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "selenium>=4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9",
+]
+
+[tool.uv]
+package = false

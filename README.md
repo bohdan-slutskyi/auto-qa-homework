@@ -73,3 +73,16 @@ pytest-тест оформления заказа в SauceDemo, организо
 ```bash
 uv run --locked pytest -q
 ```
+
+## Урок 13: Введение в Requests
+
+В папке `13__Auto QA 13 - Введение в Requests/homework_07/` находится
+решение варианта 1: API-класс для Restful Booker и pytest-тесты создания,
+получения, частичного изменения и негативного сценария для бронирования.
+
+Проверка из папки задания:
+
+```bash
+uv sync --locked
+uv run pytest -q
+```

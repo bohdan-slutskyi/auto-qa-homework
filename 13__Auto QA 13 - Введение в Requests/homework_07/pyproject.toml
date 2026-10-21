@@ -1,0 +1,15 @@
+[project]
+name = "auto-qa-13-requests-homework"
+version = "0.1.0"
+description = "Решение домашнего задания 7 по Requests, вариант 1"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9",
+    "requests>=2.32",
+]
+
+[tool.uv]
+package = false
